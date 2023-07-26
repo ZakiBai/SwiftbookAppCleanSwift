@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Course: Decodable {
+    var name: String
+    var imageUrl: URL
+    var numberOfLessons: Int
+    var numberOfTests: Int
+}
